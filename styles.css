@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,700;1,400&display=swap");
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#title1{
+  font-family: "Playfair Display", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+.cont{
+  width: 70%;
+  max-width: 70%;
+  margin-left: 15px;
+  margin-top:60px;
+}
+#desc{
+  display: flex;
+  gap:10px;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+#recipe{
+  flex:70%;
+  max-width: 70%;
+}
+#ingr h3{
+  font-family: "Playfair Display", sans-serif;
+}
+#ingr p{
+  font-family: "Montserrat";
+}
+  
+#time{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap:5px;
+  flex:25%;
+  max-width: 25%;
+  box-shadow:3px 3px 10px rgba(110,110,110,0.5),-3px -3px 10px rgba(110,110,110,0.5);
+}
+.time-item{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 25px;
+}
+.ico{
+  font-size: 30px;
+}
+#pg{
+  font-size: 15px;
+  opacity: 0.7;
+  font-family: "Montserrat";
+  font-style: italic;
+}
+.infoo p{
+  font-family: "Montserrat", sans-serif;
+  width: 200%;
+}
+.infoo div{
+  font-family: "Montserrat";
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width:800px){
+  #title1{
+    font-size: 25px;
+  }
+  .cont{
+    width: 100%;
+    max-width: 100%;
+    margin-left: 10px;
+  }
+  #pg{
+    font-size: 15px;
+  }
+  #dots{
+    margin-top: -3px;
+  }
+  .flex{
+    flex-direction: column-reverse;
+  }
+  #time{
+    flex:100%;
+    max-width: 100%;
+    box-shadow: none;
+    flex-direction: row;
+  }
+  .time-item{
+    justify-content: flex-start;
+  }
+  .infoo div{
+    font-size: 15px;
+    width:200%;
+  }
+  .infoo p{
+    font-size: 10px;
+    width: 200%;
+  }
+  .resp{
+    flex:30%;
+    max-width: 30%;
+  }
+  .first{
+    flex:100%;
+    max-width: 100%;
+  }
+}
