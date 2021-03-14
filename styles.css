@@ -112,9 +112,10 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: green;
+  background-color: grey;
   color: white;
   text-align: center;
+  font-family: "Montserrat";
 }
 @media screen and (max-width:800px){
   #title1{
