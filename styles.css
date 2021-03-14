@@ -28,10 +28,47 @@
   flex:70%;
   max-width: 70%;
 }
+#ingr{
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+}
 #ingr h3{
   font-family: "Playfair Display", sans-serif;
 }
-  
+#ingr div{
+  font-family: "Montserrat";
+}
+.txt{
+  font-family: "Montserrat";
+  font-size: 20px;
+  flex:80%;
+  max-width: 80%;
+}
+.item{
+  display: flex;
+  gap:30px;
+}
+.number {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700; 
+  font-size: 24px;
+  flex: 40px;
+  max-width: 40px;
+  height: 40px;
+  background-color: orange; 
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+#inst h2 {
+  font-family: "Playfair Display", sans-serif;
+}
+input{
+  position: relative;
+  top:3px;
+}
 #time{
   display: flex;
   flex-direction: column;
@@ -40,6 +77,9 @@
   flex:25%;
   max-width: 25%;
   box-shadow:3px 3px 10px rgba(110,110,110,0.5),-3px -3px 10px rgba(110,110,110,0.5);
+  height: 30%;
+  max-height: 30%;
+  border-radius: 10px;
 }
 .time-item{
   display: flex;
@@ -62,6 +102,10 @@
 }
 .infoo div{
   font-family: "Montserrat";
+}
+#cheesecake{
+  position: relative;
+  top:-100%;
 }
 footer {
   position: fixed;
@@ -90,6 +134,10 @@ footer {
   .flex{
     flex-direction: column-reverse;
   }
+  #recipe{
+    flex:90%;
+    max-width: 90%;
+  }
   #time{
     flex:100%;
     max-width: 100%;
@@ -114,5 +162,15 @@ footer {
   .first{
     flex:100%;
     max-width: 100%;
+  }
+  .number{
+    flex:40px;
+    max-width: 40px;
+    height: 40px;
+  }
+  .txt{
+    font-style: 14px;
+    flex:80%;
+    max-width: 80%;
   }
 }
