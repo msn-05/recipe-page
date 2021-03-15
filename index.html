@@ -8,10 +8,11 @@
     <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Recipe page BY MSN</title>
   </head>
   <body>
-    <div class="cont">
+    <div class="cont" data-aos="fade-right">
       <div id="title1">Classic Cheesecake Recipe</div>
       <br>
       <div id="desc">
@@ -20,9 +21,9 @@
       </div>
     </div>
     <br><br>
-    <div><img style="display:block;width:95%;margin:auto" src="photo1.png"></div>
+    <div data-aos="zoom-in" data-aos-duration="2500"><img style="display:block;width:95%;margin:auto" src="photo1.png"></div>
     <div class="flex">
-      <div id="recipe">
+      <div id="recipe" data-aos="fade-in">
         <div id="ingr" style="padding:5px">
           <h3>Ingredients</h3>
 
@@ -57,7 +58,7 @@
         </div>
       </div>
       <br><br>
-      <div id="time">
+      <div id="time" data-aos="fade-in-left">
         <div class="time-item first">
           <div class="fas fa-utensils ico" style="color:orange"></div>
           <div class="infoo">
@@ -89,7 +90,7 @@
       </div>
     </div>
     <br><br>
-    <div id="inst">
+    <div id="inst" data-aos="zoom-in-up" data-aos-duration="3000">
       <h2>Instructions</h2>
       <br><br>
       <div class="item">
@@ -124,5 +125,9 @@
     <i class="txt" style="font-size: 16px">Source: <a href="https://sallysbakingaddiction.com/classic-cheesecake/" style="text-decoration: none;color:black">https.//sallysbakingaddiction.com/classic-cheesecake/</a></i>
     <br><br><br><br>
     <footer>created by <a href="https://github.com/msn-05" style="text-decoration:none;color:white;">msn-05</a> - devchallenges.io</footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
